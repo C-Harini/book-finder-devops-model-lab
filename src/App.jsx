@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function App(){
- const [bookarray, setBookarray] = useState([{name:"DSA",author:"XYZ",price:200},{name:"Java",author:"ABC",price:300},{name:"Python",author:"PQR",price:400},{name:"C++",author:"LMN",price:500}]);
+ const [bookarray, setBookarray] = useState([{name:"hariniiii",author:"XYZ",price:200},{name:"Java",author:"ABC",price:300},{name:"Python",author:"PQR",price:400},{name:"C++",author:"LMN",price:500}]);
 const [name, setName] = useState("");
 
 const hadleSearch = (name) => {
@@ -37,3 +37,4 @@ return(<>
     </>)
 }
 export default App;
+
